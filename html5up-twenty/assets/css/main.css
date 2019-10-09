@@ -132,7 +132,7 @@ input, select, textarea {
 		color: inherit;
 		font-weight: 300;
 		line-height: 1.75em;
-		margin-bottom: 1em;
+		/* margin-bottom: 1em; */
 		text-transform: uppercase;
 	}
 
@@ -145,6 +145,7 @@ input, select, textarea {
 	h2 {
 		font-size: 1.5em;
 		letter-spacing: 0.1em;
+		text-align: center;
 	}
 
 	h3 {
@@ -174,6 +175,9 @@ input, select, textarea {
 		border-left: solid 0.5em rgba(124, 128, 129, 0.2);
 		font-style: italic;
 		padding: 1em 0 1em 2em;
+	}
+	.col-4 li {
+		margin-top: 17px;
 	}
 
 /* Container */
@@ -320,6 +324,9 @@ input, select, textarea {
 		.row > .col-4 {
 			width: 33.33333%;
 		}
+		.row > .col-4 > .gitbutton {
+			margin-top: 16px;
+		}
 
 		.row > .off-4 {
 			margin-left: 33.33333%;
@@ -350,7 +357,7 @@ input, select, textarea {
 		}
 
 		.row > .col-8 {
-			width: 66.66667%;
+			width: 100%;
 		}
 
 		.row > .off-8 {
@@ -665,7 +672,7 @@ input, select, textarea {
 						.row.gtr-25.gtr-uniform > * {
 							padding-top: 10px;
 						}
-
+/* 
 				.row.gtr-50 {
 					margin-top: -20px;
 					margin-left: -20px;
@@ -681,7 +688,7 @@ input, select, textarea {
 
 						.row.gtr-50.gtr-uniform > * {
 							padding-top: 20px;
-						}
+						} */
 
 				.row {
 					margin-top: -40px;
@@ -911,14 +918,14 @@ input, select, textarea {
 							padding-top: 10px;
 						}
 
-				.row.gtr-50 {
+				/* .row.gtr-50 {
 					margin-top: -20px;
 					margin-left: -20px;
-				}
+				} */
 
-					.row.gtr-50 > * {
+					/* .row.gtr-50 > * {
 						padding: 20px 0 0 20px;
-					}
+					} */
 
 					.row.gtr-50.gtr-uniform {
 						margin-top: -20px;
@@ -1986,8 +1993,19 @@ input, select, textarea {
 			opacity: 0.35;
 			text-align: center;
 		}
+		.icon.solid {
+			cursor: default;
+			display: block;
+			margin: 0 0 1.5em 0;
+			opacity: 0.35;
+			text-align: center;
+		}
 
 			.icon.featured:before {
+				font-size: 5em;
+				line-height: 1em;
+			}
+			.icon.solid:before {
 				font-size: 5em;
 				line-height: 1em;
 			}
@@ -3152,7 +3170,7 @@ input, select, textarea {
 			}
 
 			h3 {
-				font-size: 1em;
+				font-size: 139%;
 				letter-spacing: 0.025em;
 			}
 
@@ -3337,3 +3355,5 @@ input, select, textarea {
 				width: 50px;
 				height: 34px;
 			}
+
+		}
