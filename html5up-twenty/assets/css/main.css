@@ -313,6 +313,11 @@ blockquote {
   margin: 25px;
 }
 
+.p_list {
+  font-size: 1.8rem;
+  margin: 25px;
+}
+
 .skill_proj_header {
   font-size: 2.5rem;
 }
